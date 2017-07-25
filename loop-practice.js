@@ -7,10 +7,8 @@ for (i=0; i < 6; i++){
 // Loop 2 
 // output - 1 2 4 8 16 32 64
 console.log('output - 1 2 4 8 16 32 64')
-var accumulator = 1
-for (i=0; i < 7; i++){
-    console.log(accumulator)
-    accumulator *= 2
+for(i = 0; i < 7; i++){
+    console.log(Math.pow(2,i))
 }
 // Loop 3 
 // output - 1 1 1 2 2 2 3 3 3
@@ -23,18 +21,14 @@ for (i=1; i < 4; i++){
 // Loop 4 
 // output - 0 2 4 6 8 10
 console.log('output - 0 2 4 6 8 10')
-var accumulator = 0
-for (i=1; i < 7; i++){
-    console.log(accumulator)
-    accumulator += 2
+for (i=0; i < 6; i++){
+    console.log(i+i)
 }
 // Loop 5
 // output - 3 6 9 12 15
 console.log('output - 3 6 9 12 15')
-var accumulator = 3
-for (i=1; i < 6; i++){
-    console.log(accumulator)
-    accumulator += 3
+for (i=0; i < 5; i++){
+    console.log((i+1)*3)
 }
 // Loop 6
 // output - 9 8 7 6 5 4 3 2 1 0
