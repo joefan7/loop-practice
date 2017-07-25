@@ -13,9 +13,9 @@ for(i = 0; i < 7; i++){
 // Loop 3 
 // output - 1 1 1 2 2 2 3 3 3
 console.log('output - 1 1 1 2 2 2 3 3 3')
-for (i=1; i < 4; i++){
+for (i=0; i < 3; i++){
     for (j=1; j < 4; j++){
-        console.log(i)
+        console.log(i+1)
     }
 }
 // Loop 4 
